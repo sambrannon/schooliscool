@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>School is cool | Quad 2</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var js = 1.0;
+
+Version = parseInt(navigator.appVersion);
+
+if (navigator.appName == "Netscape")
+    js = ((Version >= 4) ? 1.2 : ( (Version == 3) ? 1.1 : 1.0 ));
+else
+    if (navigator.appVersion.indexOf('MSIE') != -1) 
+        js = ((Version >= 4) ? 1.1 : 1.0);
+
+function changeImagemap(newImage) {
+    if (js > 1.0) document ['quad2buildings'].src = eval(newImage + ".src");
+}
+
+if (js > 1.0) {
+    base = new Image();
+    base.src  = "images/quad2.gif";
+
+    roll1 = new Image();
+    roll1.src  = "images/quad2sarup.gif";
+
+    roll2 = new Image();
+    roll2.src  = "images/quad2ems.gif";
+
+	
+		
+}
+
+//-->
+</SCRIPT>
+
+</head>
+
+<body>
+
+<map name="buildings">
+	
+	<area name="Sarup" shape="poly" coords="294,155,290,76,269,77,268,109,280,109,280,133,240,132,240,159" href="sarup.html" alt="Quad 1" onMouseOver="changeImagemap('roll1');self.status='glowing';return true"
+   onMouseOut="changeImagemap('base');self.status='';return true"/>
+   
+	<area name="EMS" shape="poly" coords="61,255,61,217,110,218,108,206,143,206,146,249,130,250,108,251,107,243,83,242,83,254" href="ems.html" alt="Quad 1" onMouseOver="changeImagemap('roll2');self.status='glowing';return true"
+   onMouseOut="changeImagemap('base');self.status='';return true"/>
+
+</map>
+<div id="wrapper">
+    
+
+    
+<div id="leftpanel">
+    
+  <div id="logo">
+        <a href="index.html"><img src="images/header02.gif" usemap="#header" alt="brannonworks 	UWM" border="0" /></a>
+    </div>
+    
+        <div id="smallmap">
+        <img src="images/MapAllQuad2thumb.gif" border="0" usemap="#thumbmap"/>
+        <map name="thumbmap" id="thumbmap">
+          <area shape="rect" coords="75,5,164,114" href="quad1.html" />
+          <area shape="rect" coords="3,116,71,190" href="quad2.html" />
+          <area shape="rect" coords="76,116,163,187" href="quad3.html" />
+        </map>
+        </div>
+        
+
+        
+        
+  <div id="infotext">
+                <dl>
+        	<dt><a href="sarup.html">SARUP</a></dt>
+ 
+            <dt><a href="ems.html">EMS</a></dt>
+
+        </dl> 
+    </div>
+    
+        <div id="copyright">
+			<p>&#169; Copyright 2010 Sam Brannon & BrannonWorks</p>
+            <p>All rights reserved</p>
+		</div>          
+    
+  </div>
+    
+  <div id="title">
+    <p>South West Quad</p>
+  </div>
+    
+    
+  <div id="content">
+    <img src="images/quad2.gif" name="quad2buildings" border="0" usemap="#buildings"/>
+
+  </div>
+</div>
+
+
+
+</body>	
+</html>

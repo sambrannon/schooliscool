@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>School is cool | Home</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var js = 1.0;
+
+Version = parseInt(navigator.appVersion);
+
+if (navigator.appName == "Netscape")
+    js = ((Version >= 4) ? 1.2 : ( (Version == 3) ? 1.1 : 1.0 ));
+else
+    if (navigator.appVersion.indexOf('MSIE') != -1) 
+        js = ((Version >= 4) ? 1.1 : 1.0);
+
+function changeImagemap(newImage) {
+    if (js > 1.0) document ['quads'].src = eval(newImage + ".src");
+}
+
+if (js > 1.0) {
+    base = new Image();
+    base.src  = "images/MapAll.gif";
+
+    roll1 = new Image();
+    roll1.src  = "images/MapAllQuad1.gif";
+
+    roll2 = new Image();
+    roll2.src  = "images/MapAllQuad2.gif";
+
+    roll3 = new Image();
+    roll3.src  = "images/MapAllQuad3.gif";		
+}
+
+//-->
+</SCRIPT>
+
+</head>
+
+<body>
+
+<map name="quads">
+	
+	<area shape="rect" coords="159,10,351,243" href="quad1.html" alt="Quad 1" onMouseOver="changeImagemap('roll1');self.status='glowing';return true"
+   onMouseOut="changeImagemap('base');self.status='';return true"/>
+   <area shape="rect" coords="6,250,152,404" href="quad2.html" alt="Quad 2" onMouseOver="changeImagemap('roll2');self.status='glowing';return true"
+   onMouseOut="changeImagemap('base');self.status='';return true"/>
+   <area shape="rect" coords="158,248,350,404" href="quad3.html" alt="Quad 3" onMouseOver="changeImagemap('roll3');self.status='glowing';return true"
+   onMouseOut="changeImagemap('base');self.status='';return true"/>
+</map>
+
+<div id="wrapper">
+    
+
+    
+<div id="leftpanel">
+    
+        <div id="logo">
+        <a href="index.html"><img src="images/header02.gif" usemap="#header" alt="brannonworks 	UWM" border="0" /></a>
+        </div>
+    
+        <div id="smallmap">
+        <img src="images/MapAllthumb.gif" border="0" usemap="#thumbmap"/>
+        <map name="thumbmap" id="thumbmap">
+          <area shape="rect" coords="75,5,164,114" href="quad1.html" />
+          <area shape="rect" coords="3,116,71,190" href="quad2.html" />
+          <area shape="rect" coords="76,116,163,187" href="quad3.html" />
+        </map>
+    	</div>
+        
+
+        
+        
+        <div id="infotext">
+                <dl>
+        	<dt><a href="quad1.html">North East Quad</a></dt>
+            	<dd><a href="sandburg.html">Sandburg Hall</a></dd>
+                <dd><a href="klotsche.html">Klotsche Pavilion</a></dd>
+            <dt><a href="quad2.html">South West Quad</a></dt>
+            	<dd><a href="sarup.html">SARUP</a></dd>
+                <dd><a href="ems.html">EMS</a></dd>
+            <dt><a href="quad3.html">South East Quad</a></dt>
+            	<dd><a href="library.html">Golda Mier Library</a></dd>
+                <dd><a href="union.html">Union</a></dd>
+        </dl>
+        </div>
+    
+        <div id="copyright">
+			<p>&#169; Copyright 2010 Sam Brannon & BrannonWorks</p>
+            <p>All rights reserved</p>
+		</div>
+        <div id="counter">
+       <img src="http://www.website-hit-counters.com/cgi-bin/image.pl?URL=477584-8929" alt="website-hit-counters.com" title="website-hit-counters.com" border="0" >
+        </div>
+    
+  </div>
+    
+  <div id="title">
+    <p>CAMPUS MAP</p>
+    </div>
+    
+    
+  <div id="content">
+    <img name="quads" src="images/MapAll.gif" usemap="#quads" alt="map"/>
+    </div>
+</div>
+
+
+
+</body>	
+</html>
