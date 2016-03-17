@@ -1,76 +1,72 @@
 /* stylesheet.css - work in progress */
 
-#logo		{	width: 280px;}
+#logo    {  width: 280px;}
 
-img 		{	border: 0px;}
+img     {  border: 0px;}
 
-#leftpanel	{	width: 280px;
-				float: left;}
+#leftpanel  {  width: 280px;
+        float: left;}
 
-#wrapper	{	width: 990px;
-				background-color: white;
-				margin-left: auto;
-				margin-right: auto;
-				}	
-			
-body		{	text-align: center;}
+#wrapper  {  width: 990px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        }
 
-html			{	font-size: 100%;
-				overflow: scroll;}
+body    {  text-align: center;}
 
-#content	{	width: 710px;
-				text-align: center;
-				float: left;}
+html      {  font-size: 100%;
+        overflow: scroll;}
 
-#infotext	{	color: #333;
-				padding: 12px;
-				text-align: left;
-				background-color:#FC0;
-				border-style:solid;
-				border-color:#666;
-				border-width: 2px;}
-				
+#content  {  width: 710px;
+        text-align: center;
+        float: left;}
+
+#infotext  {  color: #333;
+        padding: 12px;
+        text-align: left;
+        background-color:#FC0;
+        border-style:solid;
+        border-color:#666;
+        border-width: 2px;}
+
 #infotext a:link{
-				text-decoration: underline;
-				color: #333;}
+        text-decoration: underline;
+        color: #333;}
 #infotext a:visited{
-				text-decoration: underline;
-				color: #333
-				
-				}	
-#infotext a:hover{
-				text-decoration: underline;
-				background-color: #c90;
-				color: #333;}
-#infotext a:active{
-				text-decoration: none;
-				color: #666;}				
-				
-#title		{	font-family: Arial, Helvetica, sans-serif;
-				color: #999;
-				font-size:x-large;
-				text-align: center;
-				padding-top: 0px;
-				font-weight:bold;}	
-				
-#titledescription	
-			{	font-family: Arial, Helvetica, sans-serif;
-				color: #999;
-				font-size:small;
-				text-align: center;}	
-						
-#smallmap img {	
-				padding-top:15px;
-				padding-bottom:15px;}
-				
-dt			{	font-family: Arial, Helvetica, sans-serif;	
-				font-size: large;}
-dd			{	font-family: Arial, Helvetica, sans-serif;	
-				font-size: small;}	
-				
-#copyright	{	font-family: Arial, Helvetica, sans-serif;
-				font-size: x-small;}
-				
-			
-							
+        text-decoration: underline;
+        color: #333
 
+        }
+#infotext a:hover{
+        text-decoration: underline;
+        background-color: #c90;
+        color: #333;}
+#infotext a:active{
+        text-decoration: none;
+        color: #666;}
+
+#title    {  font-family: Arial, Helvetica, sans-serif;
+        color: #999;
+        font-size:x-large;
+        text-align: center;
+        padding-top: 0px;
+        font-weight:bold;}
+
+#titledescription
+      {  font-family: Arial, Helvetica, sans-serif;
+        color: #999;
+        font-size:small;
+        text-align: center;}
+
+#smallmap img {
+        padding-top:15px;
+        padding-bottom:15px;}
+
+dt      {  font-family: Arial, Helvetica, sans-serif;
+        font-size: large;}
+dd      {  font-family: Arial, Helvetica, sans-serif;
+        font-size: small;}
+
+#copyright  {  font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;}

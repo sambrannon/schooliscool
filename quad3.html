@@ -1,30 +1,25 @@
-
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<title>School is cool | Quad 3</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-var js = 1.0;
+  <title>School is cool | Quad 3</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  <script language="JavaScript">
+  <!--
+  var js = 1.0;
 
-Version = parseInt(navigator.appVersion);
+  Version = parseInt(navigator.appVersion);
 
-if (navigator.appName == "Netscape")
+  if (navigator.appName == "Netscape")
     js = ((Version >= 4) ? 1.2 : ( (Version == 3) ? 1.1 : 1.0 ));
-else
-    if (navigator.appVersion.indexOf('MSIE') != -1) 
+  else
+    if (navigator.appVersion.indexOf('MSIE') != -1)
         js = ((Version >= 4) ? 1.1 : 1.0);
 
-function changeImagemap(newImage) {
+  function changeImagemap(newImage) {
     if (js > 1.0) document ['quad3buildings'].src = eval(newImage + ".src");
-}
+  }
 
-if (js > 1.0) {
+  if (js > 1.0) {
     base = new Image();
     base.src  = "images/quad3.gif";
 
@@ -34,76 +29,47 @@ if (js > 1.0) {
     roll2 = new Image();
     roll2.src  = "images/quad3union.gif";
 
-	
-		
-}
 
-//-->
-</SCRIPT>
 
+  }
+
+  //-->
+  </script>
 </head>
-
 <body>
-
-<map name="buildings">
-	
-	<area name="Library" shape="poly" coords="216,161,218,83,185,82,186,106,159,99,149,81,108,78,110,164" href="library.html" alt="Quad 1" onMouseOver="changeImagemap('roll1');self.status='glowing';return true"
-   onMouseOut="changeImagemap('base');self.status='';return true"/>
-   
-	<area name="Union" shape="poly" coords="87,320,42,319,43,269,51,260,178,259,175,305,124,305,125,315,110,316,105,309,88,312" href="union.html" alt="Quad 1" onMouseOver="changeImagemap('roll2');self.status='glowing';return true"
-   onMouseOut="changeImagemap('base');self.status='';return true"/>
-
-</map>
-<div id="wrapper">
-    
-
-    
-<div id="leftpanel">
-    
-  <div id="logo">
-        <a href="index.html"><img src="images/header02.gif" usemap="#header" alt="brannonworks 	UWM" border="0" /></a>
-    </div>
-    
-        <div id="smallmap">
-        <img src="images/MapAllQuad3thumb.gif" border="0" usemap="#thumbmap"/>
-        <map name="thumbmap" id="thumbmap">
-          <area shape="rect" coords="75,5,164,114" href="quad1.html" />
-          <area shape="rect" coords="3,116,71,190" href="quad2.html" />
-          <area shape="rect" coords="76,116,163,187" href="quad3.html" />
+  <map id="buildings" name="buildings">
+    <area alt="Quad 1" coords="216,161,218,83,185,82,186,106,159,99,149,81,108,78,110,164" href="library.html" onmouseout="changeImagemap('base');self.status='';return true" onmouseover=
+    "changeImagemap('roll1');self.status='glowing';return true" shape="poly">
+    <area alt="Quad 1" coords="87,320,42,319,43,269,51,260,178,259,175,305,124,305,125,315,110,316,105,309,88,312" href="union.html" onmouseout="changeImagemap('base');self.status='';return true"
+    onmouseover="changeImagemap('roll2');self.status='glowing';return true" shape="poly">
+  </map>
+  <div id="wrapper">
+    <div id="leftpanel">
+      <div id="logo">
+        <a href="index.html"><img alt="brannonworks UWM" border="0" src="images/header02.gif" usemap="#header"></a>
+      </div>
+      <div id="smallmap">
+        <img border="0" src="images/MapAllQuad3thumb.gif" usemap="#thumbmap"> <map id="thumbmap" name="thumbmap">
+          <area coords="75,5,164,114" href="quad1.html" shape="rect">
+          <area coords="3,116,71,190" href="quad2.html" shape="rect">
+          <area coords="76,116,163,187" href="quad3.html" shape="rect">
         </map>
-        </div>
-        
-
-        
-        
-  <div id="infotext">
-                <dl>
-        	<dt><a href="library.html">Library</a></dt>
- 
-            <dt><a href="union.html">Union</a></dt>
-
-        </dl> 
+      </div>
+      <div id="infotext">
+        <dl>
+          <dt><a href="library.html">Library</a></dt>
+          <dt><a href="union.html">Union</a></dt>
+        </dl>
+      </div>
+      <div id="copyright">
+        <p>&#169; Copyright 2010 Sam Brannon</p>
+        <p>All rights reserved</p>
+      </div>
     </div>
-    
-        <div id="copyright">
-			<p>&#169; Copyright 2010 Sam Brannon & BrannonWorks</p>
-            <p>All rights reserved</p>
-		</div>          
-    
+    <div id="title">
+      <p>South East Quad</p>
+    </div>
+    <div id="content"><img border="0" id="quad3buildings" name="quad3buildings" src="images/quad3.gif" usemap="#buildings"></div>
   </div>
-    
-  <div id="title">
-    <p>South East Quad</p>
-  </div>
-    
-    
-  <div id="content">
-    <img src="images/quad3.gif" name="quad3buildings" border="0" usemap="#buildings"/>
-
-  </div>
-</div>
-
-
-
-</body>	
+</body>
 </html>
